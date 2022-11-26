@@ -23,13 +23,10 @@
 }
 
 .section-title {
-  margin-bottom: 20px;
-}
-
-.section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .section-subtitle {
@@ -57,6 +54,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 .table__text {
@@ -64,6 +62,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .section-title_theme_dark {
@@ -84,6 +83,8 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  color: white;
+  margin-right: 0;
   margin-top: 80px;
 }
 
@@ -96,21 +97,6 @@
   background-color: #f2f2f2;
   box-sizing: border-box;
   /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .logo {
@@ -156,6 +142,9 @@
 }
 
 .header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
   position: absolute;
   right: 0;
   top: 64px;
@@ -200,6 +189,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -236,6 +226,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 0;
 }
 
 .feynman__link {
@@ -305,6 +296,7 @@
   font-size: 18px;
   font-weight: normal;
   padding: 18px 0;
+  margin: 0;
 }
 
 .footer__column-heading {
@@ -312,6 +304,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__column-links {
