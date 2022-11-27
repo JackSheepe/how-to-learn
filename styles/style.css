@@ -9,10 +9,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.page_mrgn_btm_l {
-  margin-bottom: 100px;
-}
-
 .section-title,
 .section-subtitle {
   display: flex;
@@ -96,6 +92,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   box-sizing: border-box;
+  margin-bottom: 100px;
   /* выше установили ограничения для секции */
 }
 
@@ -130,6 +127,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -162,6 +160,10 @@
   content: " \2192";
 }
 
+.description {
+  margin-bottom: 100px;
+}
+
 .two-columns {
   display: flex;
   margin: auto;
@@ -175,6 +177,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -196,6 +199,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.digits {
+  margin-bottom: 100px;
 }
 
 .feynman {
@@ -284,7 +291,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column-content-copyright {
   display: flex;
   flex-direction: column;
   flex-basis: 711px;
@@ -299,6 +306,11 @@
   margin: 0;
 }
 
+.footer__column-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -311,6 +323,7 @@
   padding-left: 0;
   padding-bottom: 16px;
   list-style: none;
+  margin: 0;
 }
 
 .footer__column-link {
