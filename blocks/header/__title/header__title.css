@@ -1,0 +1,9 @@
+.header__title {
+  display: flex;
+  max-width: 730px;
+  margin: auto auto auto 64px;
+  z-index: 90;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
